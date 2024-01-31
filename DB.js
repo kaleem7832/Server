@@ -1,4 +1,4 @@
 module.exports = {
   DB:
-    "mongodb+srv://kaleem78:TsvHatMG55tiTcwK@cluster0-ndxxv.mongodb.net/TaskTracker?retryWrites=true&w=majority",
+    ""mongodb+srv://kaleem:1234@cluster0.egghxjo.mongodb.net/Tasks?retryWrites=true&w=majority",
 };
