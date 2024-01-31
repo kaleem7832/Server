@@ -64,7 +64,7 @@ taskRoutes.route("/history/:title").get(function (req, res) {
     if (err) {
       res.status(400).send(err);
     } else {
-      res.status(200).send(tasks);
+      res.status(200).send(tasks.reverse());
     }
   });
 });
