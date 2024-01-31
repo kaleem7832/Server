@@ -11,7 +11,7 @@ let Task = new Schema(
     },
     date: {
       type: String,
-      required: true,
+      required: false,
     },
     task: {
       type: String,
