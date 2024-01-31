@@ -8,7 +8,7 @@ let Task = require("./taskhistory");
 // Defined store route
 taskRoutes.route("/add").post(function (req, res) {
   let task = new Task(req.body);
-  console.log(task);
+  
   task
     .save()
     .then((task) => {
